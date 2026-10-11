@@ -30,7 +30,7 @@ sh build.sh
 open dist/MemoryBar.app
 ```
 
-The repository is private, so cloning requires an account with access. The build script creates `dist/MemoryBar.app` and does not launch it. You can also open that bundle in Finder or move it to your Applications folder. Login startup is not enabled automatically.
+The build script creates `dist/MemoryBar.app` and does not launch it. You can also open that bundle in Finder or move it to your Applications folder. Login startup is not enabled automatically.
 
 The app is **ad-hoc signed for local use**, not signed with a Developer ID or notarized for distribution. There is no prebuilt GitHub release; build from source on your Mac. The project has no third-party package dependencies.
 
